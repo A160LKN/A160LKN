@@ -6,6 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Открыт_к_предложениям-QA_Engineer-2ea44f?style=for-the-badge" alt="Открыт к предложениям: QA Engineer">
+  <a href="mailto:aibolkazbayev@gmail.com"><img src="https://img.shields.io/badge/Написать-aibolkazbayev@gmail.com-1f4e8c?style=for-the-badge&logo=gmail&logoColor=white" alt="Написать: aibolkazbayev@gmail.com"></a>
+  <a href="https://www.linkedin.com/in/aibolkazbayev/"><img src="https://img.shields.io/badge/LinkedIn-aibolkazbayev-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn: aibolkazbayev"></a>
 </p>
 
 <p align="center">
@@ -74,3 +76,12 @@
 UI-скрипт на Java  →  тесты SauceDemo на Java и Python  →  своё приложение TaskFlow + автотесты и CI
                    →  API-тесты  →  FinFlow с юнит- и E2E-тестами  →  тестирование AI-ассистента
 ```
+
+---
+
+### 📬 Контакты
+
+Ищу позицию QA Engineer в Астане. Буду рад обсудить задачи вашей команды.
+
+- ✉️ Почта: [aibolkazbayev@gmail.com](mailto:aibolkazbayev@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/aibolkazbayev](https://www.linkedin.com/in/aibolkazbayev/)
