@@ -1,7 +1,7 @@
 <h1 align="center">Айбол Казбаев</h1>
 
 <p align="center">
-  <b>QA Engineer</b> · ручное тестирование, UI- и API-автотесты, тестирование AI · Астана
+  <b>QA Engineer</b> · ручное тестирование, UI-, API- и бэкенд-автотесты, тестирование AI · Астана
 </p>
 
 <p align="center">
@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/≈200-автотестов-1f4e8c?style=flat-square" alt="около 200 автотестов">
-  <img src="https://img.shields.io/badge/5-CI_пайплайнов-1f4e8c?style=flat-square" alt="5 CI-пайплайнов">
-  <img src="https://img.shields.io/badge/9-репозиториев-1f4e8c?style=flat-square" alt="9 репозиториев">
+  <img src="https://img.shields.io/badge/400+-автотестов-1f4e8c?style=flat-square" alt="больше 400 автотестов">
+  <img src="https://img.shields.io/badge/6-CI_пайплайнов-1f4e8c?style=flat-square" alt="6 CI-пайплайнов">
+  <img src="https://img.shields.io/badge/10-репозиториев-1f4e8c?style=flat-square" alt="10 репозиториев">
 </p>
 
 ---
@@ -21,7 +21,8 @@
 ### Обо мне
 
 - 🔍 **Ручное тестирование в телекоме:** тест-кейсы в Jira, проверка API в Postman и данных через SQL, больше 50 найденных дефектов, тестирование миграции биллинга.
-- 🤖 **Автоматизация:** UI-тесты на Selenium и Playwright, API-тесты на requests, отчёты Allure, запуск в GitHub Actions.
+- 🤖 **Автоматизация:** UI-тесты на Selenium и Playwright, API-тесты на requests и Pydantic, отчёты Allure, запуск в GitHub Actions.
+- 🗄 **Бэкенд:** тестирую сервис целиком — PostgreSQL, транзакции и одновременные запросы, моки внешних сервисов, Docker.
 - 🧠 **Тестирование AI:** проверяю ответы ассистентов на галлюцинации, prompt injection и стабильность, сравниваю версии перед релизом.
 - 🛠 **Понимаю систему целиком:** почти два года работал системным администратором и сам пишу веб-приложения, которые потом покрываю тестами.
 
@@ -29,12 +30,18 @@
 
 ### 📂 Проекты
 
-#### Автоматизация тестирования
+#### Бэкенд и API
+
+| Проект | Что внутри | CI |
+| --- | --- | --- |
+| [**shop-api**](https://github.com/A160LKN/shop-api) | Бэкенд интернет-магазина на FastAPI и PostgreSQL и 186 тестов к нему: юнит, интеграционные, API. Проверка одновременных заказов (последний товар не продаётся дважды), мок платёжного шлюза, IDOR и подделка токенов, 6 найденных и закрытых дефектов. Docker Compose, смоук-тест образа в CI | [![CI](https://github.com/A160LKN/shop-api/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/A160LKN/shop-api/actions/workflows/ci.yml) |
+| [**booker-api-tests**](https://github.com/A160LKN/booker-api-tests) | Тесты публичного REST API: CRUD, авторизация по токену, контракт ответов на Pydantic, 3 задокументированных дефекта. Коллекция Postman с запуском через Newman в CI · [Allure-отчёт](https://a160lkn.github.io/booker-api-tests/) | [![API tests](https://github.com/A160LKN/booker-api-tests/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/A160LKN/booker-api-tests/actions/workflows/tests.yml) |
+
+#### UI-автотесты
 
 | Проект | Что внутри | CI |
 | --- | --- | --- |
 | [**taskflow-autotests**](https://github.com/A160LKN/taskflow-autotests) | 21 UI-тест для моего приложения TaskFlow: Python, Selenium, pytest, Page Object · [Allure-отчёт](https://a160lkn.github.io/taskflow-autotests/) | [![UI tests](https://github.com/A160LKN/taskflow-autotests/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/A160LKN/taskflow-autotests/actions/workflows/tests.yml) |
-| [**booker-api-tests**](https://github.com/A160LKN/booker-api-tests) | 18 тестов REST API: CRUD, авторизация по токену, JSON-схемы, 3 задокументированных дефекта · [Allure-отчёт](https://a160lkn.github.io/booker-api-tests/) | [![API tests](https://github.com/A160LKN/booker-api-tests/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/A160LKN/booker-api-tests/actions/workflows/tests.yml) |
 | [**saucedemo-autotests-java**](https://github.com/A160LKN/saucedemo-autotests-java) · [**python**](https://github.com/A160LKN/saucedemo-autotests-python) | Один набор UI-тестов интернет-магазина на двух языках: JUnit 5 и pytest, Allure со скриншотом при падении | |
 
 #### Тестирование AI
@@ -47,7 +54,7 @@
 
 | Проект | Что внутри | CI |
 | --- | --- | --- |
-| [**FinFlow**](https://github.com/A160LKN/FinFlow) | Учёт личных финансов: бюджеты, SVG-графики, импорт и экспорт CSV, работает офлайн. 60 юнит- и 29 E2E-тестов на Playwright · [демо](https://a160lkn.github.io/FinFlow/) | [![CI](https://github.com/A160LKN/FinFlow/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/A160LKN/FinFlow/actions/workflows/ci.yml) |
+| [**FinFlow**](https://github.com/A160LKN/FinFlow) | Учёт личных финансов: бюджеты, SVG-графики, импорт и экспорт CSV, работает офлайн. 71 юнит- и 32 E2E-теста на Playwright, полная тестовая документация (требования, тест-стратегия, тест-дизайн, матрица покрытия), main защищена — изменения только через PR · [демо](https://a160lkn.github.io/FinFlow/) | [![CI](https://github.com/A160LKN/FinFlow/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/A160LKN/FinFlow/actions/workflows/ci.yml) |
 | [**TaskFlow**](https://github.com/A160LKN/TaskFlow) | Трекер задач на HTML, CSS и JavaScript с атрибутами `data-testid` для автотестов · [демо](https://a160lkn.github.io/TaskFlow/) | 🌐 онлайн |
 
 #### Практика
@@ -62,8 +69,9 @@
 
 | | |
 | --- | --- |
-| **Тестирование** | ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white) ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat&logo=confluence&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white) ![DevTools](https://img.shields.io/badge/DevTools-4285F4?style=flat&logo=googlechrome&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-003B57?style=flat&logo=sqlite&logoColor=white) |
-| **Автоматизация** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white) ![requests](https://img.shields.io/badge/requests-REST_API-2E7D32?style=flat) ![Allure](https://img.shields.io/badge/Allure-FF6F00?style=flat) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) ![JUnit5](https://img.shields.io/badge/JUnit_5-25A162?style=flat&logo=junit5&logoColor=white) |
+| **Тестирование** | ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white) ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat&logo=confluence&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white) ![Newman](https://img.shields.io/badge/Newman-FF6C37?style=flat&logo=postman&logoColor=white) ![DevTools](https://img.shields.io/badge/DevTools-4285F4?style=flat&logo=googlechrome&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-003B57?style=flat&logo=sqlite&logoColor=white) |
+| **Автоматизация** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white) ![requests](https://img.shields.io/badge/requests-REST_API-2E7D32?style=flat) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white) ![Allure](https://img.shields.io/badge/Allure-FF6F00?style=flat) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) ![JUnit5](https://img.shields.io/badge/JUnit_5-25A162?style=flat&logo=junit5&logoColor=white) |
+| **Бэкенд** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat&logo=sqlalchemy&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) |
 | **CI и инструменты** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apachemaven&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) ![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat&logo=pycharm&logoColor=white) ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat&logo=intellijidea&logoColor=white) |
 | **Веб** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
 | **AI** | ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white) ![ChatGPT](https://img.shields.io/badge/ChatGPT-412991?style=flat&logo=openai&logoColor=white) |
@@ -75,6 +83,7 @@
 ```
 UI-скрипт на Java  →  тесты SauceDemo на Java и Python  →  своё приложение TaskFlow + автотесты и CI
                    →  API-тесты  →  FinFlow с юнит- и E2E-тестами  →  тестирование AI-ассистента
+                   →  тестовая документация и работа через PR  →  свой бэкенд с PostgreSQL, Docker и пирамидой тестов
 ```
 
 ---
