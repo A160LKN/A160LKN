@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/400+-автотестов-1f4e8c?style=flat-square" alt="больше 400 автотестов">
-  <img src="https://img.shields.io/badge/6-CI_пайплайнов-1f4e8c?style=flat-square" alt="6 CI-пайплайнов">
-  <img src="https://img.shields.io/badge/10-репозиториев-1f4e8c?style=flat-square" alt="10 репозиториев">
+  <img src="https://img.shields.io/badge/550+-автотестов-1f4e8c?style=flat-square" alt="больше 550 автотестов">
+  <img src="https://img.shields.io/badge/7-CI_пайплайнов-1f4e8c?style=flat-square" alt="7 CI-пайплайнов">
+  <img src="https://img.shields.io/badge/11-репозиториев-1f4e8c?style=flat-square" alt="11 репозиториев">
 </p>
 
 ---
@@ -30,11 +30,17 @@
 
 ### 📂 Проекты
 
+#### Fullstack: магазин «Дүкен» — [открыть онлайн](https://shop-web-azure.vercel.app)
+
+| Проект | Что внутри | CI |
+| --- | --- | --- |
+| [**shop-web**](https://github.com/A160LKN/shop-web) | Витрина и админка на React и TypeScript: каталог с фильтрами, корзина, сверенная с сервером, оплата с отказом банка и таймаутом, сводка для админа с графиком выручки. Типы API генерируются из OpenAPI, CI сверяет контракт с работающим бэкендом. 120 компонентных тестов (Vitest, MSW) и 25 E2E на Playwright против настоящего API в Docker · [демо](https://shop-web-azure.vercel.app) | [![CI](https://github.com/A160LKN/shop-web/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/A160LKN/shop-web/actions/workflows/ci.yml) |
+| [**shop-api**](https://github.com/A160LKN/shop-api) | Бэкенд на FastAPI и PostgreSQL и 227 тестов к нему: юнит, интеграционные, API. Одновременные заказы (последний товар не продаётся дважды), мок платёжного шлюза, IDOR и подделка токенов, нагрузка на k6 — 240 запросов/с без ошибок. 9 найденных и закрытых дефектов, один из них — гонка при отмене заказа, пойманная проверкой целостности данных после нагрузки. Docker, деплой на Render · [документация API](https://shop-api-yka7.onrender.com/docs) | [![CI](https://github.com/A160LKN/shop-api/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/A160LKN/shop-api/actions/workflows/ci.yml) |
+
 #### Бэкенд и API
 
 | Проект | Что внутри | CI |
 | --- | --- | --- |
-| [**shop-api**](https://github.com/A160LKN/shop-api) | Бэкенд интернет-магазина на FastAPI и PostgreSQL и 186 тестов к нему: юнит, интеграционные, API. Проверка одновременных заказов (последний товар не продаётся дважды), мок платёжного шлюза, IDOR и подделка токенов, нагрузочный тест на k6 — 240 запросов/с без ошибок. 8 найденных и закрытых дефектов. Docker Compose, смоук- и нагрузочный тест в CI | [![CI](https://github.com/A160LKN/shop-api/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/A160LKN/shop-api/actions/workflows/ci.yml) |
 | [**booker-api-tests**](https://github.com/A160LKN/booker-api-tests) | Тесты публичного REST API: CRUD, авторизация по токену, контракт ответов на Pydantic, 3 задокументированных дефекта. Коллекция Postman с запуском через Newman в CI · [Allure-отчёт](https://a160lkn.github.io/booker-api-tests/) | [![API tests](https://github.com/A160LKN/booker-api-tests/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/A160LKN/booker-api-tests/actions/workflows/tests.yml) |
 
 #### UI-автотесты
@@ -70,10 +76,10 @@
 | | |
 | --- | --- |
 | **Тестирование** | ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white) ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat&logo=confluence&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white) ![Newman](https://img.shields.io/badge/Newman-FF6C37?style=flat&logo=postman&logoColor=white) ![DevTools](https://img.shields.io/badge/DevTools-4285F4?style=flat&logo=googlechrome&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-003B57?style=flat&logo=sqlite&logoColor=white) |
-| **Автоматизация** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white) ![requests](https://img.shields.io/badge/requests-REST_API-2E7D32?style=flat) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white) ![Allure](https://img.shields.io/badge/Allure-FF6F00?style=flat) ![k6](https://img.shields.io/badge/k6-7D64FF?style=flat&logo=k6&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) ![JUnit5](https://img.shields.io/badge/JUnit_5-25A162?style=flat&logo=junit5&logoColor=white) |
+| **Автоматизация** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white) ![requests](https://img.shields.io/badge/requests-REST_API-2E7D32?style=flat) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat&logo=vitest&logoColor=white) ![Allure](https://img.shields.io/badge/Allure-FF6F00?style=flat) ![k6](https://img.shields.io/badge/k6-7D64FF?style=flat&logo=k6&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) ![JUnit5](https://img.shields.io/badge/JUnit_5-25A162?style=flat&logo=junit5&logoColor=white) |
 | **Бэкенд** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat&logo=sqlalchemy&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) |
 | **CI и инструменты** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apachemaven&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) ![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat&logo=pycharm&logoColor=white) ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat&logo=intellijidea&logoColor=white) |
-| **Веб** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
+| **Веб** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-149ECA?style=flat&logo=react&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white) |
 | **AI** | ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white) ![ChatGPT](https://img.shields.io/badge/ChatGPT-412991?style=flat&logo=openai&logoColor=white) |
 
 ---
@@ -84,6 +90,7 @@
 UI-скрипт на Java  →  тесты SauceDemo на Java и Python  →  своё приложение TaskFlow + автотесты и CI
                    →  API-тесты  →  FinFlow с юнит- и E2E-тестами  →  тестирование AI-ассистента
                    →  тестовая документация и работа через PR  →  свой бэкенд с PostgreSQL, Docker, пирамидой тестов и нагрузкой на k6
+                   →  фронтенд на React + TypeScript к нему, E2E против настоящего API, деплой онлайн
 ```
 
 ---
