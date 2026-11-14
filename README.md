@@ -1,11 +1,10 @@
 <h1 align="center">Айбол Казбаев</h1>
 
 <p align="center">
-  <b>QA Engineer</b> · ручное тестирование, UI-, API- и бэкенд-автотесты, тестирование AI · Астана
+  <b>QA Engineer</b> · автотесты UI, API и бэкенда · fullstack-проекты на React, FastAPI и Node.js · Астана
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Открыт_к_предложениям-QA_Engineer-2ea44f?style=for-the-badge" alt="Открыт к предложениям: QA Engineer">
   <a href="mailto:aibolkazbayev@gmail.com"><img src="https://img.shields.io/badge/Написать-aibolkazbayev@gmail.com-1f4e8c?style=for-the-badge&logo=gmail&logoColor=white" alt="Написать: aibolkazbayev@gmail.com"></a>
   <a href="https://www.linkedin.com/in/aibolkazbayev/"><img src="https://img.shields.io/badge/LinkedIn-aibolkazbayev-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn: aibolkazbayev"></a>
 </p>
@@ -24,7 +23,8 @@
 - 🤖 **Автоматизация:** UI-тесты на Selenium и Playwright, API-тесты на requests и Pydantic, отчёты Allure, запуск в GitHub Actions.
 - 🗄 **Бэкенд:** тестирую сервис целиком — PostgreSQL, транзакции и одновременные запросы, моки внешних сервисов, Docker, нагрузка на k6.
 - 🧠 **Тестирование AI:** проверяю ответы ассистентов на галлюцинации, prompt injection и стабильность, сравниваю версии перед релизом.
-- 🛠 **Понимаю систему целиком:** почти два года работал системным администратором и сам пишу веб-приложения, которые потом покрываю тестами.
+- 🧩 **Fullstack:** React + TypeScript, FastAPI, Node.js + Fastify — три проекта работают онлайн, у каждого тесты, CI и деплой.
+- 🛠 **Понимаю систему целиком:** почти два года работал системным администратором — сети, серверы, базы данных.
 
 ---
 
@@ -91,22 +91,7 @@
 
 ---
 
-### 🧭 Путь
-
-```
-UI-скрипт на Java  →  тесты SauceDemo на Java и Python  →  своё приложение TaskFlow + автотесты и CI
-                   →  API-тесты  →  FinFlow с юнит- и E2E-тестами  →  тестирование AI-ассистента
-                   →  тестовая документация и работа через PR  →  свой бэкенд с PostgreSQL, Docker, пирамидой тестов и нагрузкой на k6
-                   →  фронтенд на React + TypeScript к нему, E2E против настоящего API, деплой онлайн
-                   →  доска задач в реальном времени: WebSocket, фоновые задачи, E2E в двух браузерах
-                   →  API продажи билетов на Node.js + TypeScript: гонки за места, вебхуки, идемпотентность
-```
-
----
-
 ### 📬 Контакты
-
-Ищу позицию QA Engineer в Астане. Буду рад обсудить задачи вашей команды.
 
 - ✉️ Почта: [aibolkazbayev@gmail.com](mailto:aibolkazbayev@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/aibolkazbayev](https://www.linkedin.com/in/aibolkazbayev/)
