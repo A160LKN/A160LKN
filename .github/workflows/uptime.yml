@@ -1,0 +1,20 @@
+# «Сторож» демо: раз в сутки открывает все онлайн-версии проектов.
+# Если что-то не отвечает, запуск падает, и GitHub присылает письмо.
+name: Демо онлайн
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # каждый день в 08:17 по Астане
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Проверить демо
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - run: ./scripts/uptime.sh
