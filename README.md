@@ -11,8 +11,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/1000+-автотестов-1f4e8c?style=flat-square" alt="больше 1000 автотестов">
-  <img src="https://img.shields.io/badge/11-CI_пайплайнов-1f4e8c?style=flat-square" alt="11 CI-пайплайнов">
-  <img src="https://img.shields.io/badge/15-репозиториев-1f4e8c?style=flat-square" alt="15 репозиториев">
+  <img src="https://img.shields.io/badge/10-CI_пайплайнов-1f4e8c?style=flat-square" alt="10 CI-пайплайнов">
+  <img src="https://img.shields.io/badge/14-репозиториев-1f4e8c?style=flat-square" alt="14 репозиториев">
 </p>
 
 ---
@@ -34,7 +34,7 @@
 
 | Проект | Что внутри | CI |
 | --- | --- | --- |
-| [**kan**](https://github.com/A160LKN/kan) | Моя дипломная работа, пересобранная заново: английский на **русском и казахском** в виде игры для детей и взрослых. Барс-талисман, 8 видов заданий (аудирование с картинками, слово из букв, скоростной раунд), сундуки, финальные бои, комбо, задания дня, магазин. Серия дней — **свой аул**: юрта строится по частям, тұмар спасает пропущенный день. FastAPI + PostgreSQL, React + TypeScript. 529 тестов бэкенда (99 %), 293 компонентных, 14 E2E; **доступность** WCAG 2.1 AA (axe) в обеих темах, **Lighthouse** 99/100/100/100, **безопасность**: лимит попыток входа, CSP, CodeQL, OWASP ZAP · [демо](https://kan-self.vercel.app) | [![CI](https://github.com/A160LKN/kan/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/A160LKN/kan/actions/workflows/ci.yml) |
+| **kan** | Моя дипломная работа, пересобранная заново: английский на **русском и казахском** в виде игры для детей и взрослых. Барс-талисман, 8 видов заданий (аудирование с картинками, слово из букв, скоростной раунд), сундуки, финальные бои, комбо, задания дня, магазин. Серия дней — **свой аул**: юрта строится по частям, тұмар спасает пропущенный день. FastAPI + PostgreSQL, React + TypeScript. 529 тестов бэкенда (99 %), 301 компонентный, 14 E2E; **доступность** WCAG 2.1 AA (axe) в обеих темах, **Lighthouse** 99/100/100/100, **безопасность**: лимит попыток входа, CSP, OWASP ZAP · [демо](https://kan-self.vercel.app). Код закрыт: проект готовится к коммерческому запуску | — |
 
 #### ⚡ Fullstack: доска задач «Бірге» в реальном времени — [открыть онлайн](https://birge-seven.vercel.app)
 
