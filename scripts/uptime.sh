@@ -10,6 +10,8 @@ CHECKS=(
   "Касса API — афиша из базы|https://kassa-api-419n.onrender.com/events|\"items\""
   "Дүкен — сайт магазина|https://shop-web-azure.vercel.app/|<div id=\"root\">"
   "Бірге — сайт доски|https://birge-seven.vercel.app/|<div id=\"root\">"
+  "kan API|https://kan-api.onrender.com/health|\"ok\""
+  "kan — сайт игры|https://kan-self.vercel.app/|<div id=\"root\">"
 )
 
 # Будим все серверы параллельно, ответ не важен
