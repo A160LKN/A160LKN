@@ -11,7 +11,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/4000+-автотестов-1f4e8c?style=flat-square" alt="больше 4000 автотестов">
-  <img src="https://img.shields.io/badge/10-CI_пайплайнов-1f4e8c?style=flat-square" alt="10 CI-пайплайнов">
+  <img src="https://img.shields.io/badge/11-CI_пайплайнов-1f4e8c?style=flat-square" alt="11 CI-пайплайнов">
   <img src="https://img.shields.io/badge/15-репозиториев-1f4e8c?style=flat-square" alt="15 репозиториев">
 </p>
 
@@ -81,6 +81,7 @@
 | --- | --- | --- |
 | [**FinFlow**](https://github.com/A160LKN/FinFlow) | Учёт личных финансов: бюджеты, SVG-графики, импорт и экспорт CSV, работает офлайн. 71 юнит- и 32 E2E-теста на Playwright, полная тестовая документация (требования, тест-стратегия, тест-дизайн, матрица покрытия), main защищена — изменения только через PR · [демо](https://a160lkn.github.io/FinFlow/) | [![CI](https://github.com/A160LKN/FinFlow/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/A160LKN/FinFlow/actions/workflows/ci.yml) |
 | [**TaskFlow**](https://github.com/A160LKN/TaskFlow) | Трекер задач на HTML, CSS и JavaScript с атрибутами `data-testid` для автотестов · [демо](https://a160lkn.github.io/TaskFlow/) | 🌐 онлайн |
+| [**kvalimetr**](https://github.com/A160LKN/kvalimetr) | Тренажёр для подготовки к экзаменам в одном файле `index.html`: 702 вопроса по английскому, аналитическому мышлению, алгоритмам и базам данных, тест из 20 случайных вопросов (75 % сложных). Часть вопросов генерируется кодом: ответ вычисляется трассировкой сортировки, обходом графа или SQL-логикой над таблицей, seed фиксирован, поэтому повтор даёт тот же набор. Разбор ошибок, сравнение с прошлой попыткой; скрипт проверки базы в CI · [демо](https://a160lkn.github.io/kvalimetr/) | [![Validate](https://github.com/A160LKN/kvalimetr/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/A160LKN/kvalimetr/actions/workflows/validate.yml) |
 
 #### 🎯 Практика
 
