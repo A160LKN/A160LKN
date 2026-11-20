@@ -1,0 +1,24 @@
+# Общий код (лимиты попыток, хеширование паролей, часть интерфейса) скопирован между проектами,
+# чтобы каждый репозиторий жил сам по себе. Проверка следит, чтобы копии не разошлись:
+# исправление, внесённое в один проект и забытое в другом, уронит этот запуск.
+name: Общий код не разошёлся
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "23 3 * * 1" # по понедельникам, 08:23 по Астане
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Сравнить копии
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - run: python3 scripts/check-shared.py
